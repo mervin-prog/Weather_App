@@ -11,6 +11,8 @@ app.use(express.static("public"));
 const port=3000;
 const APIKEY=process.env.APIKEY;
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
 
 
