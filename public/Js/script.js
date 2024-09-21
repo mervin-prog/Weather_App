@@ -34,23 +34,23 @@ async function getWeather(city){
 
         switch (data.weather[0].main) {
             case 'Clear':
-                image.src = '/images/clear.png';
+                image.src = '../public/images/clear.png';
                 break;
 
             case 'Rain':
-                image.src = '/images/rain.png';
+                image.src = '../public/images/rain.png';
                 break;
 
             case 'Snow':
-                image.src = '/images/snow.png';
+                image.src = '../public/images/snow.png';
                 break;
 
             case 'Clouds':
-                image.src = '/images/cloud.png';
+                image.src = '../public/images/cloud.png';
                 break;
 
             case 'Haze':
-                image.src = '/images/mist.png';
+                image.src = '../public/images/mist.png';
                 break;
 
             default:
